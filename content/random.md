@@ -4,14 +4,14 @@ layout: "layout"
 ---
 
 <script>
-  const base = window.location.pathname.replace(/\\/[^\\/]*$/, '');
+  const basePath = "/tusavais-org/content/"; // ← adapte selon ton dossier GitHub Pages
   const pages = [
     "chiquita.html",
     "nike-air.html",
     "apple-iphone.html"
   ];
   const randomPage = pages[Math.floor(Math.random() * pages.length)];
-  window.location.href = `${base}/${randomPage}`;
+  window.location.href = window.location.origin + basePath + randomPage;
 </script>
 
 <p>Redirection vers une page au hasard...</p>
