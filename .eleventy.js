@@ -1,12 +1,14 @@
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("static");
 
-  // 👇 Cela permet à Eleventy de traiter les fichiers Markdown dans /content/
-  eleventyConfig.addCollection("articles", function (collectionApi) {
-    return collectionApi.getFilteredByGlob("./content/*.md");
+  // ✅ Collection des fichiers Markdown
+  eleventyConfig.addCollection("marques", function (collection) {
+    return collection.getFilteredByGlob("./content/*.md");
   });
 
+  // ✅ Ajout du pathPrefix pour GitHub Pages
   return {
+    pathPrefix: "/tusavais-org/",
     dir: {
       input: ".",
       includes: "templates",
