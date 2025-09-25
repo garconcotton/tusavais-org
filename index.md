@@ -1,6 +1,10 @@
+
 ---
 title: "Bienvenue sur Tu savais ?"
 layout: "layout"
 ---
 
-Ce site présente des faits inattendus sur des marques, leurs produits, et leurs propriétaires. Scanne un QR code ou explore les catégories !
+<p>Explore des marques étonnantes, leur origine et leur propriétaire !</p>
+<ul>
+  <li><a href="/categorie/fruit/bananix/">Bananix</a></li>
+</ul>

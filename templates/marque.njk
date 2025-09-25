@@ -1,24 +1,8 @@
+
 {% extends "layout.njk" %}
 {% block content %}
 <article>
   <h2>{{ title }}</h2>
   {{ content | safe }}
-  <hr>
-  <p><strong>Discussion :</strong></p>
-  <script src="https://giscus.app/client.js"
-        data-repo="TON_GITHUB/REPO_NAME"
-        data-repo-id=""
-        data-category="General"
-        data-category-id=""
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="light"
-        data-lang="fr"
-        crossorigin="anonymous"
-        async>
-  </script>
 </article>
 {% endblock %}

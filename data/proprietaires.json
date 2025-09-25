@@ -1,5 +1,8 @@
+
 [
-  { "id": "unilever", "name": "Unilever", "marques": ["chiquita"] },
-  { "id": "nike-inc", "name": "Nike Inc.", "marques": ["nike-air"] },
-  { "id": "apple-inc", "name": "Apple Inc.", "marques": ["iphone"] }
+  {
+    "id": "fruitcorp",
+    "name": "FruitCorp",
+    "marques": ["bananix"]
+  }
 ]

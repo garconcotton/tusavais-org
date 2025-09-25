@@ -1,5 +1,1 @@
-[
-  { "id": "fruit", "label": "Fruits" },
-  { "id": "vetement", "label": "Vêtements" },
-  { "id": "tech", "label": "Technologie" }
-]
+[{"id": "fruit", "label": "Fruits"}]

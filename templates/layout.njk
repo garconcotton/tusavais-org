@@ -1,24 +1,23 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
   <title>{{ title or "Tu savais ?" }}</title>
+  <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
   <header>
-  <h1><a href="/">Tu savais ?</a></h1>
-  <nav>
-    <a href="/">Accueil</a> |
-    <a href="/content/chiquita.html">Exemple : Chiquita</a> |
-    <a href="/categories.html">Catégories</a> |
-    <a href="/proprietaires.html">Propriétaires</a> |
-    <a href="/random.html">Page au hasard</a>
-  </nav>
-  <hr>
-</header>
+    <h1><a href="/">Tu savais ?</a></h1>
+    <nav>
+      <a href="/">Accueil</a> |
+      <a href="/categorie/fruit/">Catégorie Fruits</a> |
+      <a href="/proprietaire/fruitcorp/">FruitCorp</a>
+    </nav>
+    <hr>
+  </header>
   <main>
     {{ content | safe }}
   </main>
-  <footer><p><a href="/">Accueil</a></p></footer>
 </body>
 </html>

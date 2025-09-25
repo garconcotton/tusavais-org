@@ -1,20 +1,9 @@
+
 [
   {
-    "id": "chiquita",
-    "name": "Chiquita",
+    "id": "bananix",
+    "name": "Bananix",
     "categorie": "fruit",
-    "proprietaire": "unilever"
-  },
-  {
-    "id": "nike-air",
-    "name": "Nike Air",
-    "categorie": "vetement",
-    "proprietaire": "nike-inc"
-  },
-  {
-    "id": "iphone",
-    "name": "iPhone",
-    "categorie": "tech",
-    "proprietaire": "apple-inc"
+    "proprietaire": "fruitcorp"
   }
 ]
