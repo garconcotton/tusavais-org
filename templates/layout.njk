@@ -5,7 +5,17 @@
   <title>{{ title or "Tu savais ?" }}</title>
 </head>
 <body>
-  <header><h1><a href="/">Tu savais ?</a></h1></header>
+  <header>
+  <h1><a href="/">Tu savais ?</a></h1>
+  <nav>
+    <a href="/">Accueil</a> |
+    <a href="/content/chiquita.html">Exemple : Chiquita</a> |
+    <a href="/categories.html">Catégories</a> |
+    <a href="/proprietaires.html">Propriétaires</a> |
+    <a href="/random.html">Page au hasard</a>
+  </nav>
+  <hr>
+</header>
   <main>
     {{ content | safe }}
   </main>
