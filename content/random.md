@@ -4,13 +4,14 @@ layout: "layout"
 ---
 
 <script>
+  const base = window.location.pathname.replace(/\\/[^\\/]*$/, '');
   const pages = [
-    "/content/chiquita.html",
-    "/content/nike-air.html",
-    "/content/apple-iphone.html"
+    "chiquita.html",
+    "nike-air.html",
+    "apple-iphone.html"
   ];
   const randomPage = pages[Math.floor(Math.random() * pages.length)];
-  window.location.href = randomPage;
+  window.location.href = `${base}/${randomPage}`;
 </script>
 
 <p>Redirection vers une page au hasard...</p>
