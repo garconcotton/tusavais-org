@@ -11,7 +11,7 @@ layout: "layout"
     "apple-iphone.html"
   ];
   const randomPage = pages[Math.floor(Math.random() * pages.length)];
-  window.location.href = window.location.origin + basePath + randomPage;
+  window.location.replace(window.location.origin + basePath + randomPage);
 </script>
 
 <p>Redirection vers une page au hasard...</p>
