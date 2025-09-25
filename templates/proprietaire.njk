@@ -1,0 +1,10 @@
+{% extends "layout.njk" %}
+{% block content %}
+<h2>{{ title }}</h2>
+<p>Liste des marques détenues :</p>
+<ul>
+{% for marque in marques %}
+  <li><a href="/content/{{ marque }}.html">{{ marque }}</a></li>
+{% endfor %}
+</ul>
+{% endblock %}

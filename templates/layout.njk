@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title or "Tu savais ?" }}</title>
+</head>
+<body>
+  <header><h1><a href="/">Tu savais ?</a></h1></header>
+  <main>
+    {{ content | safe }}
+  </main>
+  <footer><p><a href="/">Accueil</a></p></footer>
+</body>
+</html>
